@@ -294,11 +294,24 @@ header h1 a img {
 }
 
 .slogan {
-    padding: 30px 0 30px;
+	padding: 15px 0 20px;
     text-align: center;
     color: #24124d;
     font: 25px/25px 'Open Sans', sans-serif;
-    background: url(../images/slogan_bg.jpg) center 0 no-repeat;
+    background: url(../images/slogan_Bg.jpg) center 0 no-repeat;
+	height: 115px;
+}
+
+.left {
+	float:left;
+    width: 40%;
+}
+
+.right {
+	float:right;
+    width: 60%;
+	text-align: left;
+	padding-top: 25px;
 }
 
 .banner a {
